@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margin_2dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RL_item_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp">
+
+        <Button
+        android:id="@+id/BT_firstletter"
+        android:layout_width="@dimen/margin_40dp"
+        android:layout_height="@dimen/margin_40dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:background="@drawable/orangecirclebutton"
+        android:text="T"
+        android:textColor="@color/white"
+        android:textSize="@dimen/margin_14dp" />
+
+        <RelativeLayout
+            android:id="@+id/lay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/RV_acceptdecline"
+            android:layout_toRightOf="@+id/BT_firstletter"
+            android:minHeight="50dp">
+
+            <TextView
+                android:id="@+id/groupmembername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:text="Tendulkarfd"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <ImageView
+                android:id="@+id/battery"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_toRightOf="@+id/groupmembername"
+                android:background="@drawable/battery_icon" />
+
+            <TextView
+                android:id="@+id/batterypercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                android:layout_marginTop="@dimen/margin_13dp"
+                android:layout_toRightOf="@+id/battery"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:text="80%"
+                android:textSize="9dp" />
+
+            <TextView
+                android:id="@+id/online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupmembername"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:text="online status"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="9dp"
+                />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupmembername"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_2dp"
+                android:text="5/53 Sec-2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RV_acceptdecline"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:paddingTop="2.5dp"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/IV_jobDecline"
+                android:layout_width="50dp"
+                android:layout_height="22dp"
+                android:padding="2dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimary"
+                android:text="Decline"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_10sp"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:src="@drawable/deactivate_account"
+                android:tint="@color/darkorange"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_11sp"
+                android:visibility="gone"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/track"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/track"
+                android:text=""
+                android:scaleType="center"
+                android:layout_toLeftOf="@+id/IV_jobDecline"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                android:layout_marginRight="5dp"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="50dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/green"
+                android:text="Accept"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_10sp"
+                android:clickable="false"
+                android:layout_toLeftOf="@+id/IV_jobDecline"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/TV_userHelpFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="See Who Else Helping User"
+        android:gravity="center"
+        android:textColor="@color/GrayCloud"
+        android:textSize="@dimen/text_size_12sp"
+        android:visibility="gone"
+        android:clickable="true"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginRight="@dimen/margin_10dp"
+        android:background="@color/GrayCloud"></View>
+</LinearLayout>
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_40dp"
+        android:background="@color/theme_color"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="@dimen/margin_5dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ic_search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/one_side_round_button"
+            android:padding="5dp"
+            android:src="@drawable/ic_search" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/ic_search"
+            android:background="@drawable/right_side_round_button"
+            android:gravity="center"
+            android:hint="Search"
+            android:paddingLeft="-35dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/TV_collage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</LinearLayout>

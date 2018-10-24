@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_verify_otp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+
+            <RelativeLayout
+                android:id="@+id/layoutCounter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/customcircle"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/lblCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Cou"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/header_text_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutCounter"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/OTP_lblPreSMS"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/margin_14dp" />
+
+            <TextView
+                android:id="@+id/txtPhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_text_register"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/margin_14dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/txtMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPhoneNo"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="5dp"
+                android:text="ErrorMessage"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/margin_14dp" />
+
+            <EditText
+                android:id="@+id/txtOTP"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/txtMessage"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/edit_text_style"
+                android:hint="Enter Activation Code"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="#080808"
+                android:textSize="@dimen/margin_14dp"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:id="@+id/btnContinue"
+                android:layout_width="@dimen/myButtonWidth"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtOTP"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button"
+                android:elegantTextHeight="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Continue"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/margin_14dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

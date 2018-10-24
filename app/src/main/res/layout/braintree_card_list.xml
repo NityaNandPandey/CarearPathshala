@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_30dp">
+
+        <TextView
+            android:id="@+id/TV_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_30dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="ADD CARD"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/IV_canceldialog"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_8dp"
+            android:background="@drawable/cancel_themecolor_icon"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/white" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@color/brown"
+        android:dividerHeight="0dp"></ListView>
+</LinearLayout>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TV_IncidentSeqName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/BT_firstletter"
+                android:layout_width="@dimen/margin_50dp"
+                android:layout_height="@dimen/margin_50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:background="@drawable/orangecirclebutton"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_14dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/RL_upload"
+            android:layout_toRightOf="@+id/RL1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LL_helpedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL_incidentname1"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/BT_firstletter111"
+                    android:layout_width="@dimen/margin_5dp"
+                    android:layout_height="@dimen/margin_5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_8dp"
+                    android:background="@drawable/orangecirclebutton"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/margin_14dp"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/BT_firstletter1"
+                    android:layout_width="6dp"
+                    android:layout_height="6dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:background="@drawable/offline_ic" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_5dp"
+                    android:text="Helped By: "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_GuardName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_victim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL_helpedby"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Requester: "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TV_victim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_Lest_Update_Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL_victim"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Tv_Lest_Update_Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Updated By: "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/TV_Lest_Update_By"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_endtime"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:hint=""
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_Lest_Update_Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL_Lest_Update_Date"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Tv_Lest_Update_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update Time: "
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/TV_Tv_Lest_Update_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_endtime"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:hint=""
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RL_upload"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <Button
+                android:id="@+id/BT_next"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:background="@drawable/right_arrow_icon" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Location: "
+            android:textColor="@color/colorPrimary"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/TV_startlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text=""
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Location: "
+            android:textColor="@color/colorPrimary"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/TV_endlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text=""
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_2dp"
+        android:layout_marginLeft="@dimen/margin_10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Type: "
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/TV_JobType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text=""
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightGray"
+        android:minHeight="@dimen/margin_50dp">
+
+        <RelativeLayout
+            android:id="@+id/RL_upload1"
+            android:layout_width="@dimen/margin_50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:minHeight="@dimen/margin_50dp">
+
+            <Button
+                android:id="@+id/BT_upload"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/icon_upload" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/RL_upload1"
+            android:minHeight="@dimen/margin_50dp">
+
+            <LinearLayout
+                android:id="@+id/LL_endtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tv_endtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="End Date"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/TV_TaskEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_endtime"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="0dp"
+                    android:hint=""
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LL_endtime"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:gravity="center|right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/BT_comments"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/comments"
+                    android:backgroundTint="@color/theme_dark" />
+
+                <TextView
+                    android:id="@+id/TotalCountComments"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/BT_next"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/theme_dark"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/RL_upload1"
+            android:minHeight="@dimen/margin_50dp">
+
+            <LinearLayout
+                android:id="@+id/LL_TaskStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tv_starttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Start Date"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/TV_TaskStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tv_starttime"
+                    android:layout_marginTop="2dp"
+                    android:hint=""
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/LL_TaskStartDate"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/BT_file"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/file_icon" />
+
+                <TextView
+                    android:id="@+id/TV_imagecount"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/theme_dark"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".10dp"
+        android:layout_below="@+id/LL1"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimaryDark"></View>
+</LinearLayout>

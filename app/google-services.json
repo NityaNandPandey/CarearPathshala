@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "615186893573",
+    "firebase_url": "https://careerpathshala-f5e29.firebaseio.com",
+    "project_id": "careerpathshala-f5e29",
+    "storage_bucket": "careerpathshala-f5e29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615186893573:android:1dd6097454e08316",
+        "android_client_info": {
+          "package_name": "com.career.pathshala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615186893573-4kcq7g3rs0oaog11t29h8o24635aiamd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.career.pathshala",
+            "certificate_hash": "f3d3010da7e17fafae36b00329540ebcc471db29"
+          }
+        },
+        {
+          "client_id": "615186893573-lb3658is5s04lni560kd2q9ln4advcp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK3hWYIOB0EQsYzc_ZtN5GuOmP8hO7GmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615186893573-lb3658is5s04lni560kd2q9ln4advcp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

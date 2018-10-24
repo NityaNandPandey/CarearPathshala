@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:background="@color/theme_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/IV_backpress"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:onClick="onclick_IVBack"
+            android:padding="8dp"
+            android:src="@drawable/arrow_white_old" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Bank Details"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:gravity="center"
+            android:text="Bank Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:id="@+id/srollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <!--=======================================================-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_15dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="left"
+                        android:text="Name Of Bank"
+                        android:textSize="@dimen/text_size_12sp"
+                        android:tint="@color/colorPrimary" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:layout_toLeftOf="@+id/edit_ic1"
+                            android:background="@drawable/border_rectanglular"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/banking_message"
+                                android:tint="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/TV_Name_Of_Bank"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:textSize="@dimen/title" />
+
+                                    <EditText
+                                        android:id="@+id/et_NameOfBank"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_marginLeft="@dimen/margin_5dp"
+                                        android:background="@color/white"
+                                        android:clickable="true"
+                                        android:drawablePadding="20dp"
+                                        android:hint="Name Of Bank"
+                                        android:maxLength="15"
+                                        android:singleLine="true"
+                                        android:textColor="#000000"
+                                        android:textColorHint="@color/darkgrey"
+                                        android:textSize="@dimen/title" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/edit_ic1"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/edit_icon" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_15dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="left"
+                        android:text="Account Holder Name"
+                        android:textSize="@dimen/text_size_12sp"
+                        android:tint="@color/colorPrimary" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:layout_toLeftOf="@+id/edit_ic4"
+                            android:background="@drawable/border_rectanglular"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/banking_user"
+                                android:tint="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/TV_Account_Holder_Name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:textSize="@dimen/title" />
+
+                                    <EditText
+                                        android:id="@+id/et_AccountHolderName"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_marginLeft="@dimen/margin_5dp"
+                                        android:background="@color/white"
+                                        android:clickable="true"
+                                        android:drawablePadding="20dp"
+                                        android:hint="Account Holder Name"
+                                        android:maxLength="15"
+                                        android:singleLine="true"
+                                        android:textColor="#000000"
+                                        android:textColorHint="@color/darkgrey"
+                                        android:textSize="@dimen/title" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/edit_ic4"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/edit_icon" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_15dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="left"
+                        android:text="Account No"
+                        android:textSize="@dimen/text_size_12sp"
+                        android:tint="@color/colorPrimary" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:layout_toLeftOf="@+id/edit_ic5"
+                            android:background="@drawable/border_rectanglular"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/banking_user"
+                                android:tint="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/TV_Account_No"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:textSize="@dimen/title" />
+
+                                    <EditText
+                                        android:id="@+id/et_AccountNo"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_marginLeft="@dimen/margin_5dp"
+                                        android:background="@color/white"
+                                        android:clickable="true"
+                                        android:drawablePadding="20dp"
+                                        android:hint="Account No"
+                                        android:maxLength="25"
+                                        android:inputType="number"
+                                        android:singleLine="true"
+                                        android:textColor="#000000"
+                                        android:textColorHint="@color/darkgrey"
+                                        android:textSize="@dimen/title" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/edit_ic5"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/edit_icon" />
+                    </RelativeLayout>
+
+
+                    <!--======================================================================-->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_15dp"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="left"
+                        android:text="IFSC/Routing Number"
+                        android:textSize="@dimen/text_size_12sp"
+                        android:tint="@color/colorPrimary" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/margin_5dp"
+                            android:layout_toLeftOf="@+id/edit_ic3"
+                            android:background="@drawable/border_rectanglular"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/banking_message"
+                                android:tint="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/TV_countrycode"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="5dp"
+                                        android:textSize="@dimen/title" />
+
+                                    <EditText
+                                        android:id="@+id/et_IFSCCode"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:layout_marginLeft="@dimen/margin_5dp"
+                                        android:background="@color/white"
+                                        android:clickable="true"
+                                        android:drawablePadding="20dp"
+                                        android:hint="IFSC/Routing Number"
+                                        android:maxLength="15"
+                                        android:singleLine="true"
+                                        android:textColor="#000000"
+                                        android:textColorHint="@color/darkgrey"
+                                        android:textSize="@dimen/title" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/edit_ic3"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/edit_icon" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/BankDetailsSave"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center"
+                            android:paddingLeft="@dimen/margin_10dp"
+                            android:paddingRight="@dimen/margin_10dp"
+                            android:text="Save"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/text_size_14sp"
+                            android:visibility="visible" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height=".20dp"
+                        android:layout_marginLeft="@dimen/margin_10dp"
+                        android:layout_marginRight="@dimen/margin_5dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:background="@color/brown"></View>
+
+
+                    <RelativeLayout
+                        android:id="@+id/RL_Organization"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone"
+                            android:weightSum="2">
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_10dp"
+                                android:layout_weight="0.80">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="left"
+                                    android:text="Your Referal Code"
+                                    android:textSize="@dimen/text_size_12sp"
+                                    android:tint="@color/colorPrimary" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="0dp"
+                                android:layout_height="30dp"
+                                android:layout_weight="1.20"
+                                android:background="@drawable/border_rectanglular"
+                                android:gravity="center_vertical">
+
+                                <EditText
+                                    android:id="@+id/et_YourReferalCode"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+                                    android:background="@color/ShockingOrange"
+                                    android:clickable="false"
+                                    android:enabled="false"
+                                    android:imeOptions="actionNext"
+                                    android:maxLength="10"
+                                    android:paddingLeft="@dimen/margin_15dp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="#ffffff"
+                                    android:textColorHint="@color/darkgrey"
+                                    android:textSize="@dimen/title" />
+
+                                <ImageView
+                                    android:id="@+id/sharing"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@color/darkgrey"
+                                    android:padding="8dp"
+                                    android:src="@drawable/icon_share" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_5dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_GenerateReferalCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:text="@string/generate"
+                            android:textSize="@dimen/text_size_12sp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/BT_Bank"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Bank Details"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_14sp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

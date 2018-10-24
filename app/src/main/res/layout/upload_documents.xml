@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_50dp"
+                    android:layout_height="@dimen/margin_50dp"
+                    android:background="@mipmap/logo"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:text="Upload image and video for HOC incident"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:background="@drawable/rectangular_border"
+            android:orientation="horizontal"
+            android:padding="7dp">
+
+            <EditText
+                android:id="@+id/et_shortdescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="start"
+                android:hint="Enter media file description."
+                android:maxLength="250"
+                android:textColor="@color/black"
+                android:textColorHint="@color/brown"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_100dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:id="@+id/IV_loadimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/placeholder_image"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/BT_chooseimage"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/margin_30dp"
+                    android:background="@drawable/button"
+                    android:text="Choose Image"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_size_14sp" />
+
+
+                <Button
+                    android:id="@+id/BT_uploadimage"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/margin_30dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:background="@color/RedFadeColor"
+                    android:text="Upload Image"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_100dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp">
+
+                <ImageView
+                    android:id="@+id/IV_ImageofVideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/placeholder_video"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/BT_choosevideo"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/margin_30dp"
+                    android:background="@drawable/button"
+                    android:text="Choose Video"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_size_14sp" />
+
+
+                <Button
+                    android:id="@+id/BT_uploadvideo"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/margin_30dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:background="@color/RedFadeColor"
+                    android:text="Upload Video"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_size_14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

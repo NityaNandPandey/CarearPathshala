@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_10dp"
+    android:layout_marginRight="@dimen/margin_10dp"
+    android:layout_marginTop="@dimen/margin_10dp"
+    android:background="@drawable/rectangular_border"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LL_layoutSentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="3dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="Name:"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TV_Name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/IV_retry"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="4dp"
+                    android:src="@drawable/retry_icon"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/IV_Delet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/circular_bg"
+                    android:padding="4dp"
+                    android:src="@drawable/delete_request_icon"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_30dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="Mobile No.:"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TV_Phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="55"
+                android:gravity="center_vertical"
+                android:inputType="phone"
+                android:textColor="@color/highdarkgrey"
+                android:textColorHint="@color/highdarkgrey"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:gravity="right|center_vertical">
+
+                <ImageView
+                    android:id="@+id/IV_phonebookImage"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:padding="5dp"
+                    android:src="@drawable/phone"
+                    android:tint="@color/theme_color"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_30dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:text="Status:"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TV_UserStatus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center_vertical"
+                android:inputType="phone"
+
+                android:textColor="@color/highdarkgrey"
+                android:textColorHint="@color/highdarkgrey"
+                android:textSize="@dimen/text_size_12sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_100dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Enter Invitation Code"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:layout_marginRight="@dimen/margin_10dp"
+                    android:layout_marginTop="@dimen/margin_30dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTOne"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTtwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTthree"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTfour"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTFive"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_8dp"
+                        android:layout_marginRight="@dimen/margin_8dp"
+                        android:layout_weight="1"
+                        android:background="@color/theme_color"
+                        android:inputType="phone"
+                        android:padding="@dimen/margin_10dp">
+
+                        <EditText
+                            android:id="@+id/eTsix"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="-"
+                            android:imeOptions="actionDone"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:minHeight="25dp"
+                            android:textSize="@dimen/text_size_12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_10dp"
+                        android:layout_marginRight="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:padding="@dimen/margin_10dp"
+                        android:visibility="invisible">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="center"
+                            android:hint="0"
+                            android:maxLength="1"
+                            android:maxLines="1"
+                            android:selectAllOnFocus="true"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Enter the Invitation Code provided by your friend." />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/AcceptedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/theme_color"
+                            android:text="Ok"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/declinedButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20dp"
+                            android:text="Declined"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin_30dp"
+                        android:gravity="center"
+                        android:text="I want Create a cricle"
+                        android:textColor="@color/green"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_marginTop="@dimen/margin_50dp">
+
+                <TextView
+                    android:id="@+id/TV_SkipPromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/margin_8dp"
+                    android:text="Skip"
+                    android:textColor="@color/theme_color" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TV_SkipPromo"
+                    android:layout_marginLeft="@dimen/margin_10dp"
+                    android:text="You will be able to skip the Invitation code and enter it later." />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_select_package"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LL_RDlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:background="#fff"
+        android:elevation="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="PACKAGES"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Minimum Registration 1-month."
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_13sp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Subscription Plans"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/RD_pakages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:layout_marginRight="@dimen/margin_8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TV_havePromocode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Have a new user promotion code ?"
+                    android:textColor="@color/theme_color"
+                    android:textSize="15dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/LL_ApplyPromo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/ET_promocode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1.2"
+                        android:background="@drawable/edit_text_style"
+                        android:backgroundTint="@color/white"
+                        android:gravity="center"
+                        android:hint="Enter Promotion Code"
+                        android:maxLines="2"
+                        android:minHeight="@dimen/margin_35dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/brown"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                    <Button
+                        android:id="@+id/IV_ApplyPromo"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="0.8"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:text="Apply"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LL_promoDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:gravity="center_vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/TV_promocode"
+                        android:layout_width="0dp"
+                        android:layout_height="33dp"
+                        android:layout_weight=".4"
+                        android:background="@drawable/promo_tag"
+                        android:gravity="center"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:text="PromoCode"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:id="@+id/TV_promocodeDetails"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2dp"
+                        android:text="promotion"
+                        android:textColor="@color/CarbonGray"
+                        android:textSize="10dp"
+                        android:typeface="serif" />
+
+                    <ImageView
+                        android:id="@+id/IV_cancelPromocode"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/cancel_brown" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_refrralCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/et_YourReferalCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1.2"
+                    android:background="@drawable/edit_text_style"
+                    android:backgroundTint="@color/white"
+                    android:gravity="center"
+                    android:hint="Enter Referral Code (optional)"
+                    android:maxLines="2"
+                    android:minHeight="@dimen/margin_30dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/brown"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/IV_applyreferral_code"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0.8"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="Apply"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/TV_SP_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:padding="5dp"
+                    android:text="Subscription charge:"
+                    android:textColor="@color/CarbonGray"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/TV_totalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/margin_10dp"
+                    android:text="₹ 0.00"
+                    android:textColor="@color/theme_dark"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_5dp">
+
+
+                <Button
+                    android:id="@+id/btn_prev"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="Previous"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="Next"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

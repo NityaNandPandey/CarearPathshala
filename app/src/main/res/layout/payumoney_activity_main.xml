@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:gravity="center">
+
+        <include layout="@layout/toolbar_hocapp"></include>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="User Details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:enabled="false"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:background="@drawable/rectangular_border"
+            android:drawableLeft="@drawable/banking_user"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:hint="Username"
+            android:imeOptions="actionNext"
+            android:maxLength="16"
+            android:paddingLeft="14dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"
+            android:textSize="@dimen/text_size_12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/errorCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid credit card"
+            android:textColor="@color/dark_red"
+            android:textSize="10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Mobile Number" />
+
+        <EditText
+            android:id="@+id/pnumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:enabled="false"
+            android:background="@drawable/rectangular_border"
+            android:drawableLeft="@drawable/banking_mobile"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:hint="Mobile Number"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"
+            android:textSize="@dimen/text_size_12sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Email" />
+
+        <EditText
+            android:id="@+id/emailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:background="@drawable/rectangular_border"
+            android:drawableLeft="@drawable/banking_message"
+            android:drawablePadding="10dp"
+            android:enabled="false"
+            android:drawableTint="@color/colorPrimary"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"
+            android:textSize="@dimen/text_size_12sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Amount" />
+
+        <EditText
+            android:id="@+id/rechargeAmt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:background="@drawable/rectangular_border"
+            android:drawableLeft="@drawable/rupees_icon"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimary"
+            android:hint="Amount"
+            android:enabled="false"
+            android:imeOptions="actionNext"
+            android:maxLength="50"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/brown"
+            android:textSize="@dimen/text_size_12sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/errorMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid expiry month"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/text_size_10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/errorYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid expiry year"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/text_size_10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid CVV number"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/text_size_10sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Paynow"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_50dp"
+        android:background="@drawable/rectangular_border_red"
+        android:paddingBottom="@dimen/margin_10dp"
+        android:paddingTop="@dimen/margin_10dp"
+        android:text="Pay Now"
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+</LinearLayout>
