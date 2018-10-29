@@ -210,8 +210,6 @@
                     </LinearLayout>
 
 
-
-
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
@@ -229,8 +227,8 @@
                         <ImageView
                             android:layout_width="@dimen/margin_20dp"
                             android:layout_height="20dp"
-                            android:tint="@color/black"
-                            android:src="@drawable/renew_ic" />
+                            android:src="@drawable/renew_ic"
+                            android:tint="@color/black" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -241,6 +239,10 @@
                             android:textSize="@dimen/text_size_13sp" />
                     </LinearLayout>
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/brown"></View>
 
                     <LinearLayout
                         android:id="@+id/LL_Latest_Update"
@@ -253,17 +255,13 @@
 
 
                         <RelativeLayout
-
                             android:layout_width="28dp"
                             android:layout_height="30dp">
 
                             <ImageView
-
                                 android:layout_width="25dp"
                                 android:layout_height="30dp"
                                 android:src="@drawable/icon_update_circle" />
-
-
                         </RelativeLayout>
 
                         <TextView
@@ -308,6 +306,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
                         android:background="@color/brown"></View>
+
+                    <LinearLayout
+                        android:id="@+id/LL_contactus"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="@dimen/margin_10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:layout_width="@dimen/margin_20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/forgot" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_18dp"
+                            android:text="Contact Us"
+                            android:textColor="@color/highdarkgrey"
+                            android:textSize="@dimen/text_size_13sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/brown"></View>
+
 
                     <LinearLayout
                         android:id="@+id/LL_Rate_the_App"
@@ -364,17 +392,16 @@
                     <View
                         android:layout_width="match_parent"
                         android:layout_height="1dp"
-                        android:background="@color/brown"></View>
-
+                        android:background="@color/brown"
+                        android:visibility="invisible"></View>
 
                     <LinearLayout
-                        android:id="@+id/LL_Forgot_Password"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="@dimen/margin_10dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:visibility="visible">
+                        android:visibility="invisible">
 
                         <ImageView
                             android:layout_width="@dimen/margin_20dp"
@@ -382,19 +409,13 @@
                             android:src="@drawable/forgot" />
 
                         <TextView
-                            android:id="@+id/textView3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/margin_18dp"
-                            android:text="Forgot Password"
+                            android:text="Share The App"
                             android:textColor="@color/highdarkgrey"
                             android:textSize="@dimen/text_size_13sp" />
                     </LinearLayout>
-
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:background="@color/brown"></View>
 
 
                 </LinearLayout>

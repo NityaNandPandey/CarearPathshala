@@ -12,6 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.career.pathshala.Model.ExamAlertModel;
+import com.career.pathshala.Model.JobAlertModel;
+import com.career.pathshala.adapter.Job_Alert_Adapter;
 import com.career.pathshala.adapter.SOS_By_Me_Adapter;
 import com.career.pathshala.ClickListener.RecyclerItemClickListener;
 import com.career.pathshala.Model.SOSbyMeModel;
@@ -32,13 +35,14 @@ import java.util.ArrayList;
 public class Job_Alert_Fragment extends Fragment {
     private View rootView;
     private CommonFunctions cmf;
-    private SOS_By_Me_Adapter sos_by_me_adapter;
-    private ArrayList<SOSbyMeModel> arraylistme = new ArrayList<>();
+    private Job_Alert_Adapter jobAlertAdapter;
+    private ArrayList<JobAlertModel> arraylistme = new ArrayList<>();
     RecyclerView rv_sosbyMe;
+    JobAlertModel tck;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_college_home, container, false);
+        rootView = inflater.inflate(R.layout.job_alert_fragment, container, false);
         initilize();
         return rootView;
     }
@@ -80,7 +84,7 @@ public class Job_Alert_Fragment extends Fragment {
 
     private void SosRequestByMe() {
         String skip = "0";
-        new CallWebForService("Loading...", getContext(), cmf.urlList.notifications, cmf.sosbyme(skip), new MyServiceListener() {
+        new CallWebForService("Loading...", getContext(), cmf.urlList.jobalert, cmf.sosbyme(skip), new MyServiceListener() {
             @Override
             public void onSuccess(String string) {
                 Log.d("Login--->", string);
@@ -93,32 +97,35 @@ public class Job_Alert_Fragment extends Fragment {
 
                     if (success.equals("1")) {
                         arraylistme = new ArrayList<>();
-                        final SOSbyMeModel tck = new SOSbyMeModel();
+
                         JSONArray jsonArray = jsonObject2.optJSONArray("data");
                         for (int i = 0; i < jsonArray.length(); i++) {
                             final JSONObject jsonObject1 = jsonArray.optJSONObject(i);
-
+                            tck = new JobAlertModel();
                             String id = jsonObject1.optString("id");
-                            String msg = jsonObject1.optString("msg");
-                            String type = jsonObject1.optString("type");
+                            String content = jsonObject1.optString("content");
+                            String url = jsonObject1.optString("url");
                             String image = jsonObject1.optString("image");
+                            String examtypeid = jsonObject1.optString("examtypeid");
                             String is_deleted = jsonObject1.optString("is_deleted");
-                            String is_seen = jsonObject1.optString("is_seen");
-                            String created_on = jsonObject1.optString("CreatedOn");
                             String modified_on = jsonObject1.optString("modified_on");
+                            String created_on = jsonObject1.optString("CreatedOn");
+                            String examtype = jsonObject1.optString("examtype");
                             tck.setId(id);
-                            tck.setMsg(msg);
-                            tck.setType(type);
+                            tck.setContent(content);
+                            tck.setUrl(url);
                             tck.setImage(image);
+                            tck.setExamtypeid(examtypeid);
                             tck.setIs_deleted(is_deleted);
-                            tck.setIs_seen(is_seen);
-                            tck.setCreated_on(created_on);
                             tck.setModified_on(modified_on);
+                            tck.setCreated_on(created_on);
+                            tck.setExamtype(examtype);
                             arraylistme.add(tck);
+
                         }
 
-                        sos_by_me_adapter = new SOS_By_Me_Adapter(getActivity(), arraylistme);
-                        rv_sosbyMe.setAdapter(sos_by_me_adapter);
+                        jobAlertAdapter = new Job_Alert_Adapter(getActivity(), arraylistme);
+                        rv_sosbyMe.setAdapter(jobAlertAdapter);
 
                     } else {
                         Toast.makeText(getContext(), Message, Toast.LENGTH_SHORT).show();

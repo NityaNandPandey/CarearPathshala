@@ -17,17 +17,17 @@
 
             <LinearLayout
                 android:id="@+id/Exam_Alert"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/margin_100dp"
+                android:layout_height="@dimen/margin_150dp"
+                android:layout_margin="@dimen/margin_10dp"
                 android:layout_weight="1"
                 android:background="@drawable/round_button"
                 android:gravity="center"
-                android:layout_margin="@dimen/margin_10dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="@dimen/margin_100dp"
-                    android:layout_height="@dimen/margin_100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/img_exam" />
 
                 <TextView
@@ -42,18 +42,18 @@
 
             <LinearLayout
                 android:id="@+id/Job_Alert"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/margin_100dp"
+                android:layout_height="@dimen/margin_150dp"
+                android:layout_margin="@dimen/margin_10dp"
                 android:layout_weight="1"
                 android:background="@drawable/round_button"
                 android:gravity="center"
-                android:layout_margin="@dimen/margin_10dp"
                 android:orientation="vertical">
 
 
                 <ImageView
-                    android:layout_width="@dimen/margin_100dp"
-                    android:layout_height="@dimen/margin_100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/img_job_alert" />
 
                 <TextView
@@ -77,8 +77,8 @@
 
             <LinearLayout
                 android:id="@+id/Laltest_Update"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/margin_100dp"
+                android:layout_height="@dimen/margin_150dp"
                 android:layout_margin="@dimen/margin_10dp"
                 android:layout_weight="1"
                 android:background="@drawable/round_button"
@@ -87,23 +87,23 @@
 
 
                 <ImageView
-                    android:layout_width="@dimen/margin_100dp"
-                    android:layout_height="@dimen/margin_100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/img_latest_update" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="15dp"
-                    android:text="Laltest Update"
+                    android:text="Latest Update"
                     android:textColor="#ffffff"
                     android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/GK_and_Current_affairs"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/margin_100dp"
+                android:layout_height="@dimen/margin_150dp"
                 android:layout_margin="@dimen/margin_10dp"
                 android:layout_weight="1"
                 android:background="@drawable/round_button"
@@ -112,8 +112,8 @@
 
 
                 <ImageView
-                    android:layout_width="@dimen/margin_90dp"
-                    android:layout_height="@dimen/margin_100dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
                     android:src="@drawable/img_gk" />
 
                 <TextView

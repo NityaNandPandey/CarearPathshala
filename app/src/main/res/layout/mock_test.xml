@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_55dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/IV_backpress"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="onclick_IVBack"
+            android:padding="10dp"
+            android:src="@drawable/arrow_white_old"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Mock Tests"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mocktest1"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-1"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+
+            <Button
+                android:id="@+id/mocktest2"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-2"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+
+            <Button
+                android:id="@+id/mocktest3"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-3"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/mocktest4"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-4"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/mocktest5"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-5"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/mocktest6"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-6"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/mocktest7"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-7"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/mocktest8"
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_mock_strip"
+                android:text="Mock Test-8"
+                android:textColor="#ffffff"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/adLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"></RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -64,7 +64,7 @@
             </intent-filter>
         </service>
 
-        <service android:name=".JobNavigation.CollegeJobService"></service>
+        
 
         //----------------------------------------------------------------------
         <meta-data
@@ -79,6 +79,36 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="949251c25b02a38335ea4a258d32ddb292dfdd9d" />
+
+
+
+        <activity
+            android:name=".activity.PrepareYourselfScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.CategoryScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.OpenLink"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.MockTest"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.MockTestSession"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.SubmitScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.HomeScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
     </application>
 
 </manifest>

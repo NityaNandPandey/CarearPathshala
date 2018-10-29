@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.career.pathshala.Model.LatestUpdateModel;
 import com.career.pathshala.adapter.Latest_Update_Adapter;
 import com.career.pathshala.adapter.SOS_By_Me_Adapter;
 import com.career.pathshala.ClickListener.RecyclerItemClickListener;
@@ -34,7 +35,7 @@ public class Latest_Update_Fragment extends Fragment {
     private View rootView;
     private CommonFunctions cmf;
     private Latest_Update_Adapter mLatest_Update_Adapter;
-    private ArrayList<SOSbyMeModel> arraylistme = new ArrayList<>();
+    private ArrayList<LatestUpdateModel> arraylistme = new ArrayList<>();
     RecyclerView rv_sosbyMe;
 
     @Override
@@ -81,7 +82,7 @@ public class Latest_Update_Fragment extends Fragment {
 
                     if (success.equals("1")) {
                         arraylistme = new ArrayList<>();
-                        final SOSbyMeModel tck = new SOSbyMeModel();
+                        final LatestUpdateModel tck = new LatestUpdateModel();
                         JSONArray jsonArray = jsonObject2.optJSONArray("data");
                         for (int i = 0; i < jsonArray.length(); i++) {
                             final JSONObject jsonObject1 = jsonArray.optJSONObject(i);

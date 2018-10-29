@@ -110,12 +110,12 @@ public class SOS_By_Friend_Adapter extends RecyclerView.Adapter<SOS_By_Friend_Ad
         switch (view.getId()) {
             case R.id.decline:
                 int declinepos = (Integer) view.getTag();
-                DialogAcceptDecline(declinepos, "decline", "Are you sure you want to decline request for help from ");
+               // DialogAcceptDecline(declinepos, "decline", "Are you sure you want to decline request for help from ");
                 break;
 
             case R.id.IV_jobDecline:
                 int declineposn = (Integer) view.getTag();
-                DialogAcceptDecline(declineposn, "decline", "Are you sure you want to decline request for help from ");
+              //  DialogAcceptDecline(declineposn, "decline", "Are you sure you want to decline request for help from ");
                 break;
 
             case R.id.accept:
@@ -144,18 +144,18 @@ public class SOS_By_Friend_Adapter extends RecyclerView.Adapter<SOS_By_Friend_Ad
         }
     }
 
-    public void DialogAcceptDecline(final int positions, final String AcceptDeclien, String mesg) {
+   /* public void DialogAcceptDecline(final int positions, final String AcceptDeclien, String mesg) {
         {
             final Dialog canceljob = new Dialog(context);
-            canceljob.setContentView(R.layout.dialog_deletefriend);
+            canceljob.setContentView(R.layout.custom_mock_result);
             canceljob.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             Button ok = (Button) canceljob.findViewById(R.id.ok);
 
-            TextView TV_Message = (TextView) canceljob.findViewById(R.id.message);
-            String username = arrayList.get(positions).getUserName();
-            TV_Message.setText(mesg + username + "?");
-            Button no = (Button) canceljob.findViewById(R.id.no);
-            TV_Message.setText(mesg + username + "?");
+            //TextView TV_Message = (TextView) canceljob.findViewById(R.id.message);
+            //String username = arrayList.get(positions).getUserName();
+           // TV_Message.setText(mesg + username + "?");
+           // Button no = (Button) canceljob.findViewById(R.id.no);
+           // TV_Message.setText(mesg + username + "?");
 
             ok.setVisibility(View.VISIBLE);
             no.setOnClickListener(new View.OnClickListener() {
@@ -177,7 +177,7 @@ public class SOS_By_Friend_Adapter extends RecyclerView.Adapter<SOS_By_Friend_Ad
             });
             canceljob.show();
         }
-    }
+    }*/
 
    /* public void DialogWhoIsHelping(final String UserInteractionID, final String username) {
         String ASPNETUSERID = commonFunctions.myPreference.getString(context, commonFunctions.gc.ASPNETUSERID);

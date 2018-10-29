@@ -24,50 +24,19 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="@dimen/margin_20dp"
-                android:src="@mipmap/logo" />
+                android:src="@drawable/apk_icon" />
 
             <WebView
                 android:id="@+id/WebView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
 
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_20dp"
-                android:fontFamily="serif"
-                android:text="  Office Address:\n  ADecTec - Applied Decision Technologies, Inc. \n  #2180 Satellite Blvd. \n  Suite 400 \n  Duluth, GA 30097."
-                android:textColor="@color/black"
-                android:textSize="@dimen/margin_12dp"
-                android:visibility="gone" />
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_10dp"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="serif"
-                    android:padding="5dp"
-                    android:text="US Tel:"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/margin_12dp" />
 
-                <TextView
-                    android:id="@+id/landlineno"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="serif"
-                    android:padding="5dp"
-                    android:text="@string/about_PhoneNo"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/margin_12dp" />
-            </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -80,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:padding="5dp"
-                    android:text="India Tel:"
+                    android:text="Mobile :"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/margin_12dp" />
 

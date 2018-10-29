@@ -43,7 +43,7 @@ import butterknife.OnClick;
 
 public class MangeProfile_Fragment extends Fragment {
     public static Toolbar toolbar;
-    public String AspnetUserID, UserID, name, InvitationCode, PaymentStatusCode, mail, phone, organization_name = "", personalorganizationname, countycode;
+    public String name, mail, phone, organization_name = "", personalorganizationname, countycode;
     @Bind(R.id.TV_ChangePass)
     TextView TVChangePass;
     @Bind(R.id.pencil)
@@ -54,9 +54,6 @@ public class MangeProfile_Fragment extends Fragment {
     EditText ETPhone;
     @Bind(R.id.ET_Mail)
     EditText ETMail;
-    @Bind(R.id.ET_Invitation)
-    EditText ETInvitation;
-
     @Bind(R.id.srollview)
     ScrollView srollview;
     @Bind(R.id.BT_Update)
@@ -67,12 +64,8 @@ public class MangeProfile_Fragment extends Fragment {
     ImageView IVdeactiveaccount;
     @Bind(R.id.TV_countrycode)
     TextView TVcountrycode;
-    @Bind(R.id.et_YourReferalCode)
-    EditText et_YourReferalCode;
-    @Bind(R.id.sharing)
-    ImageView sharing;
-    @Bind(R.id.IV_referralinfo)
-    ImageView IVreferralinfo;
+
+
     String ReferralCode;
     private CommonFunctions cmf;
     private String inviteestatusid, CountryCodeId;
@@ -96,21 +89,11 @@ public class MangeProfile_Fragment extends Fragment {
     private void Intview() {
         MainActivity.toolbar.setTitle("Profile");
         cmf = new CommonFunctions(getActivity());
-        setnewView();
+
         // GetProfileAPICall();
         // setView();
     }
 
-    private void setnewView() {
-        countycode = cmf.myPreference.getString(getActivity(), GlobalConstants.COUNTYCD);
-        CountryCodeId = cmf.myPreference.getString(getActivity(), GlobalConstants.COUNTRYCODEID);
-        if (cmf.myPreference.getString(getActivity(), GlobalConstants.ACTIVATIONCODE).equals("")) {
-            ETInvitation.setText("Invitation Code");
-        }
-        AspnetUserID = cmf.myPreference.getString(getActivity(), GlobalConstants.ASPNETUSERID);
-        UserID = cmf.myPreference.getString(getActivity(), GlobalConstants.USER_ID);
-        name = cmf.myPreference.getString(getActivity(), GlobalConstants.USER_NAME);
-    }
 
     @Override
     public void onDestroyView() {
@@ -118,37 +101,26 @@ public class MangeProfile_Fragment extends Fragment {
         ButterKnife.unbind(this);
     }
 
-    @OnClick({R.id.TV_ChangePass, R.id.pencil, R.id.BT_Update, R.id.IV_delete, R.id.IV_deactiveaccount, R.id.BT_Bank, R.id.sharing, R.id.IV_referralinfo})
+    @OnClick({R.id.TV_ChangePass, R.id.pencil, R.id.BT_Update, R.id.IV_delete, R.id.IV_deactiveaccount})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.TV_ChangePass:
-                // ResetPaasword();
+                ResetPaasword();
                 break;
             case R.id.pencil:
                 ResetPaasword();
-                // make_edit();
+                make_edit();
                 break;
 
             case R.id.BT_Update:
                 break;
             case R.id.IV_delete:
-                // DeleteAccount();
+                DeleteAccount();
                 break;
             case R.id.IV_deactiveaccount:
-                //DeactivateAccount();
+                DeactivateAccount();
                 break;
 
-            case R.id.BT_Bank:
-                /*MainActivity.replaceFragment(new Fragment_BankDetails());
-                MainActivity.toolbar.setTitle("Bank Details");*/
-                break;
-            case R.id.sharing:
-                String refercode = et_YourReferalCode.getText().toString();
-                sharing(refercode);
-                break;
-            case R.id.IV_referralinfo:
-                //  Dialog_referral();
-                break;
 
         }
     }
@@ -314,7 +286,7 @@ public class MangeProfile_Fragment extends Fragment {
         cmf.myPreference.setString(getActivity(), GlobalConstants.LEGALAGREEMENTCHECK, "1");
         AppUtil.startActivityWithAnimation(getActivity(), new Intent(getActivity(), SignInActivity.class));
     }*/
-/*
+
 
     private void DeleteAccount() {
         final Dialog dialog = new Dialog(getActivity());
@@ -367,7 +339,7 @@ public class MangeProfile_Fragment extends Fragment {
                 if (TextUtils.isEmpty(oldpass)) {
                     Toast.makeText(getActivity(), "Please enter the password.", Toast.LENGTH_LONG).show();
                     return;
-                } else {
+                } /*else {
                     // call service listener..
                     new CallWebService(getActivity(), cmf.urlList.DeleteAccount, cmf.DeletedMyAccount(AspnetUserID, oldpass, "DELETE"), new MyServiceListener() {
                         @Override
@@ -394,7 +366,7 @@ public class MangeProfile_Fragment extends Fragment {
                             dialog.dismiss();
                         }
                     });
-                }
+                }*/
             }
         });
         dialog.show();
@@ -451,7 +423,7 @@ public class MangeProfile_Fragment extends Fragment {
                 if (TextUtils.isEmpty(oldpass)) {
                     Toast.makeText(getActivity(), "Please enter the password.", Toast.LENGTH_LONG).show();
                     return;
-                } else {
+                } /*else {
                     // call service listener..
                     new CallWebService(getActivity(), cmf.urlList.DeleteAccount, cmf.DeletedMyAccount(AspnetUserID, oldpass, "DEACTIVE"), new MyServiceListener() {
                         @Override
@@ -478,7 +450,7 @@ public class MangeProfile_Fragment extends Fragment {
                             dialog.dismiss();
                         }
                     });
-                }
+                }*/
             }
         });
         dialog.show();
@@ -502,7 +474,7 @@ public class MangeProfile_Fragment extends Fragment {
         dialog.show();
     }
 
-    private void GetProfileAPICall() {
+    /*private void GetProfileAPICall() {
         new CallWebService(getActivity(), cmf.urlList.GetProfile, cmf.UserID(UserID), new MyServiceListener() {
             @Override
             public void onSuccess(String string) {
@@ -541,24 +513,15 @@ public class MangeProfile_Fragment extends Fragment {
 
             }
         });
-    }
-*/
+    }*/
+
 
     private void setprofileData(String UserName, String MobileNumber, String EmailID, String InvitationCode, String PaymentStatusCode) {
         ETName.setText(UserName);
         ETPhone.setText(MobileNumber);
         ETMail.setText(EmailID);
-        ETInvitation.setText(InvitationCode);
-        TVcountrycode.setText(countycode);
         make_edit();
     }
 
 
-    public void sharing(String refercode) {
-        Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-        sharingIntent.setType("text/plain");
-        sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "HOC Referral Code");
-        sharingIntent.putExtra(Intent.EXTRA_TEXT, "Please use my referral code when you subscribe to HOC app. My referral code is " + refercode + ".");
-        startActivity(Intent.createChooser(sharingIntent, "Share via"));
-    }
 }

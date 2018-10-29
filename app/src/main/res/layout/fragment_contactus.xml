@@ -17,7 +17,7 @@
             android:layout_width="@dimen/margin_120dp"
             android:layout_height="@dimen/margin_120dp"
             android:layout_gravity="center_horizontal"
-            android:src="@mipmap/logo" />
+            android:src="@drawable/apk_icon" />
 
         <TextView
             android:layout_width="match_parent"
@@ -55,37 +55,12 @@
             android:layout_marginTop="@dimen/margin_8dp"
             android:fontFamily="serif"
             android:gravity="center"
-            android:text="Optimization Software Technologies \n Plot No.37, First Floor, Sector-5 \n Rajendra Nagar,Sahibabad \n U.P. 201005 India"
+            android:text="Career pathshalaNo. 4, 2nd floor, Vaishali Main Road, Metro \nPillar No. 353 Near Kohat Metro Station, Pitampura, New Delhi\n Delhi 110034 India"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="@dimen/margin_13dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_15dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:padding="5dp"
-                android:text="US Tel:"
-                android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/margin_12dp" />
-
-            <TextView
-                android:id="@+id/landlineno"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:padding="5dp"
-                android:text="@string/about_PhoneNo"
-                android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/margin_12dp" />
-        </LinearLayout>
 
         <!--================================================-->
 
@@ -148,32 +123,7 @@
         </LinearLayout>
 
         <!--=========================================-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_5dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:padding="5dp"
-                android:text="Website:"
-                android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/margin_12dp" />
-
-            <TextView
-                android:id="@+id/India_Website_Url"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:padding="5dp"
-                android:text="@string/India_Website_Url"
-                android:textColor="@color/colorPrimary"
-                android:textSize="@dimen/margin_12dp" />
-        </LinearLayout>
 
 
 
@@ -189,7 +139,7 @@
 
                 android:fontFamily="serif"
                 android:padding="5dp"
-                android:text="Products and Services Information:"
+                android:text="Services Information:"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/margin_12dp" />
 

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-panorama-license-11.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a0fe9a39b50fb87f2486c2bea710aa57d7b95c5b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a0fe9a39b50fb87f2486c2bea710aa57d7b95c5b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

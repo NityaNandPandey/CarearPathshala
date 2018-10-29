@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.career.pathshala.Model.LatestUpdateModel;
 import com.career.pathshala.Model.SOSbyMeModel;
 import com.career.pathshala.R;
 import com.career.pathshala.api_call.CommonFunctions;
@@ -15,13 +16,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Latest_Update_Adapter extends RecyclerView.Adapter<Latest_Update_Adapter.MyViewHolder> implements View.OnClickListener {
-    SOSbyMeModel soSbyMeModel;
+    LatestUpdateModel mLatestUpdateModel;
     private LayoutInflater inflater;
     private Context context;
-    private List<SOSbyMeModel> arrayList;
+    private List<LatestUpdateModel> arrayList;
     private CommonFunctions cmf;
 
-    public Latest_Update_Adapter(Context mcontext, ArrayList<SOSbyMeModel> data) {
+    public Latest_Update_Adapter(Context mcontext, ArrayList<LatestUpdateModel> data) {
         this.context = mcontext;
         this.arrayList = data;
         inflater = LayoutInflater.from(mcontext);
@@ -38,8 +39,8 @@ public class Latest_Update_Adapter extends RecyclerView.Adapter<Latest_Update_Ad
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         cmf = new CommonFunctions(context);
         //soSbyMeModel = arrayList.get(position);
-        holder.groupmembername.setText(soSbyMeModel.getMsg());
-        holder.reject.setText(soSbyMeModel.getCreated_on());
+        holder.groupmembername.setText(arrayList.get(position).getMsg());
+        holder.reject.setText(arrayList.get(position).getCreated_on());
         //holder.reject.setTag(position);
         // Picasso.with(context).load(soSbyMeModel.getUserimage()).into(holder.userimage);
     }

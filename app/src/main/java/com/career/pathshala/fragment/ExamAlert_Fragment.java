@@ -38,7 +38,7 @@ public class ExamAlert_Fragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_college_home, container, false);
+        rootView = inflater.inflate(R.layout.fragment_exam_alert, container, false);
         initilize();
         return rootView;
     }

@@ -12,9 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.career.pathshala.Model.OnlineQuizModel;
+import com.career.pathshala.activity.MainActivity;
 import com.career.pathshala.adapter.Online_Quiz_Adapter;
-import com.career.pathshala.adapter.SOS_By_Me_Adapter;
-import com.career.pathshala.ClickListener.RecyclerItemClickListener;
 import com.career.pathshala.Model.SOSbyMeModel;
 import com.career.pathshala.R;
 import com.career.pathshala.api_call.CallWebForService;
@@ -34,12 +34,12 @@ public class Online_Quiz_Fragment extends Fragment {
     private View rootView;
     private CommonFunctions cmf;
     private Online_Quiz_Adapter sos_by_me_adapter;
-    private ArrayList<SOSbyMeModel> arraylistme = new ArrayList<>();
+    private ArrayList<OnlineQuizModel> arraylistme = new ArrayList<>();
     RecyclerView rv_sosbyMe;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_college_home, container, false);
+        rootView = inflater.inflate(R.layout.fragment_exam_alert, container, false);
         initilize();
         return rootView;
     }
@@ -50,6 +50,7 @@ public class Online_Quiz_Fragment extends Fragment {
         rv_sosbyMe = (RecyclerView) rootView.findViewById(R.id.RV_sosrequest);
         rv_sosbyMe.setLayoutManager(new LinearLayoutManager(getActivity()));
         SosRequestByMe();
+        MainActivity.replaceFragment(new Currentaffairs_Fragment());
 
 
     }
@@ -68,8 +69,8 @@ public class Online_Quiz_Fragment extends Fragment {
 
 
     private void SosRequestByMe() {
-        String skip = "0";
-        new CallWebForService("Loading...", getContext(), cmf.urlList.Questions, cmf.Questions(skip), new MyServiceListener() {
+        String test_type = "1";
+        new CallWebForService("Loading...", getContext(), cmf.urlList.Questions, cmf.Questions(test_type), new MyServiceListener() {
             @Override
             public void onSuccess(String string) {
                 Log.d("Login--->", string);
@@ -82,7 +83,7 @@ public class Online_Quiz_Fragment extends Fragment {
 
                     if (success.equals("1")) {
                         arraylistme = new ArrayList<>();
-                        final SOSbyMeModel tck = new SOSbyMeModel();
+                        final OnlineQuizModel tck = new OnlineQuizModel();
                         JSONArray jsonArray = jsonObject2.optJSONArray("data");
                         for (int i = 0; i < jsonArray.length(); i++) {
                             final JSONObject jsonObject1 = jsonArray.optJSONObject(i);

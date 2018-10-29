@@ -9,6 +9,10 @@ public class UrlList {
     public static String notifications = domainURL + "notifications.php";
     public static String News = domainURL + "news.php";
     public static String Questions = domainURL + "questions.php";
+    public static String examalert = domainURL + "examalert.php";
+    public static String profileupdate = domainURL + "profileupdate.php";
+    public static String forgotpassword = domainURL + "forgotpassword.php";
+    public static String jobalert = domainURL + "jobalert.php";
 
 
 }

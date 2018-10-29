@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.career.pathshala.R;
@@ -25,6 +26,7 @@ public class SignInActivity extends AppCompatActivity {
     private Button BT_login, BT_sign_up, BT_Guest;
     private EditText mobile_number, user_password;
     private CommonFunctions commonFunctions;
+    TextView BT_forogotten;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,13 @@ public class SignInActivity extends AppCompatActivity {
         mobile_number = (EditText) findViewById(R.id.mobile_number);
         user_password = (EditText) findViewById(R.id.user_password);
         BT_Guest = (Button) findViewById(R.id.BT_Guest);
+        BT_forogotten=(TextView)findViewById(R.id.BT_forogotten) ;
+        BT_forogotten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
         BT_login.setOnClickListener(new View.OnClickListener() {

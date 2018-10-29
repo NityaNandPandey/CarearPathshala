@@ -83,7 +83,7 @@ public class CommonFunctions {
         final HashMap<String, String> params = new HashMap<String, String>();
         params.put("mobile", email);
         params.put("password", password);
-       // params.put("device_token", "device_token");
+        // params.put("device_token", "device_token");
         JSONObject obj = new JSONObject(params);
         Log.d("Login", obj.toString());
         return params;
@@ -157,7 +157,7 @@ public class CommonFunctions {
 
     public Map<String, String> sosbyme(String skip) {
         final HashMap<String, String> params = new HashMap<String, String>();
-        params.put("skip", skip);
+
         JSONObject obj = new JSONObject(params);
         return params;
     }

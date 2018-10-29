@@ -1,3 +1,4 @@
+/*
 package com.career.pathshala.api_call;
 
 import android.content.Context;
@@ -6,9 +7,11 @@ import android.util.Log;
 
 import com.career.pathshala.R;
 
+*/
 /**
  * Created by omprakash.m on 8/1/2017.
- */
+ *//*
+
 
 public class MyPlayer {
     public static MediaPlayer mp;
@@ -38,3 +41,4 @@ public class MyPlayer {
         }
     }
 }
+*/

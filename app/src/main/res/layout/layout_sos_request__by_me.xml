@@ -32,10 +32,6 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/text_size_12sp" />
 
-
-
-
-
             <TextView
                 android:id="@+id/reject"
                 android:layout_width="50dp"
@@ -43,8 +39,8 @@
                 android:layout_margin="4dp"
                 android:layout_toLeftOf="@+id/IV_jobDecline"
                 android:layout_weight=".50"
-                android:text="Reject"
                 android:gravity="center"
+                android:text="Reject"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:textSize="@dimen/text_size_11sp"

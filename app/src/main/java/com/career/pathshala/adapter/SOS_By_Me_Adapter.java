@@ -38,11 +38,8 @@ public class SOS_By_Me_Adapter extends RecyclerView.Adapter<SOS_By_Me_Adapter.My
     @Override
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         cmf = new CommonFunctions(context);
-        //soSbyMeModel = arrayList.get(position);
-        holder.groupmembername.setText(soSbyMeModel.getMsg());
-        holder.reject.setText(soSbyMeModel.getCreated_on());
-        //holder.reject.setTag(position);
-        // Picasso.with(context).load(soSbyMeModel.getUserimage()).into(holder.userimage);
+        holder.groupmembername.setText(arrayList.get(position).getMsg());
+        holder.reject.setText(arrayList.get(position).getCreated_on());
     }
 
     @Override//

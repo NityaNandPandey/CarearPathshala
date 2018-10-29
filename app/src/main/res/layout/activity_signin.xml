@@ -182,6 +182,7 @@
                         android:background="@drawable/button_back"
                         android:text="SIGN UP"
                         android:textColor="#fff" />
+
                     <Button
                         android:id="@+id/BT_Guest"
                         android:layout_width="match_parent"
@@ -192,7 +193,8 @@
                         android:layout_weight="1"
                         android:background="@drawable/button_back"
                         android:text="Guest User"
-                        android:textColor="#fff" />
+                        android:textColor="#fff"
+                        android:visibility="gone" />
                 </LinearLayout>
 
             </LinearLayout>

@@ -17,11 +17,11 @@
 
     ]]>
     <string name="CheckInternet">Check your connection and try again.</string>
-    <string name="about_PhoneNo">+<u>1 (770) 789 - 1975</u></string>
-    <string name="about_PhoneNo_India"><u>(+91) 971-7385459</u></string>
-    <string name="about_Email">Customer Support:  <u>support@osoftec.com</u></string>
-    <string name="about_Emailnew">Products and Services Information: <u>info@osoftec.com</u></string>
-    <string name="about_EmailnewContectUs"><u>info@osoftec.com</u></string>
+    <string name="about_PhoneNo">+<u>095829 12488</u></string>
+    <string name="about_PhoneNo_India"><u>(+91) 958-2912488</u></string>
+    <string name="about_Email">Customer Support:  <u>careerpathshala@gmail.com</u></string>
+    <string name="about_Emailnew">Services Information: <u>info@careerpathshala.com</u></string>
+    <string name="about_EmailnewContectUs"><u>info@careerpathshala.com</u></string>
     <string name="hint_username">User Name</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -74,7 +74,7 @@
     <string name="generate"> <u>Generate Referal Code</u></string>
     <string name="Add_Bank_Detail"><u>To receive payment provide bank details here.</u></string>
 
-    <string name="UsWebsite_Url"><u>www.adectec.com</u></string>
+    <string name="UsWebsite_Url"><u>www.careerpathshala.com</u></string>
     <string name="India_Website_Url"><u>www.osoftec.com</u></string>
     <string name="Click_here_to_subscribe"><u>Click here to subscribe.</u></string>
 
@@ -82,6 +82,7 @@
     <string name="otp_message">Enter OTP received through SMS.</string>
     <string name="GPS_message">Do you want to turn on GPS?</string>
     <string name="GPS_title">GPS Not Enabled</string>
+
 
 </resources>
 
