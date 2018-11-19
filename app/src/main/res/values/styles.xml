@@ -11,18 +11,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="MyActionButtonStyle" parent="@style/Theme.AppCompat.Light">//added by rupesh
-        <item name="android:minWidth">40dip</item>
-        //added by rupesh
-        <item name="android:maxWidth">40dip</item>
-        //added by rupesh
-        <item name="android:padding">0dip</item>
-        //added by rupesh
-    </style>
     <style name="AppTheme.NoActionBar">
         <item name="android:actionBarStyle">@style/myTheme.ActionBar</item>
         <item name="android:actionMenuTextColor">@color/actionBarText</item>
@@ -52,12 +42,4 @@
         <item name="android:windowExitAnimation">@anim/slide_up</item>
     </style>
 
-    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <!-- Used for the buttons -->
-        <item name="colorAccent">#FFC107</item>
-        <!-- Used for the title and text -->
-        <item name="android:textColorPrimary">#FFFFFF</item>
-        <!-- Used for the background -->
-        <item name="android:background">#4CAF50</item>
-    </style>
 </resources>

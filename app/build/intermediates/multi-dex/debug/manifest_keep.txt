@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:37
+-keep class com.career.pathshala.setting.CrashApplication { <init>(...); }
+

@@ -1,18 +1,18 @@
 package com.career.pathshala.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
-
 import com.career.pathshala.Model.ExamAlertModel;
-import com.career.pathshala.Model.SOSbyMeModel;
 import com.career.pathshala.R;
-import com.career.pathshala.api_call.CommonFunctions;
+import com.career.pathshala.activity.WebView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -22,6 +22,7 @@ public class Exam_Alert_Adapter extends RecyclerView.Adapter<Exam_Alert_Adapter.
     private LayoutInflater inflater;
     private Context context;
     private List<ExamAlertModel> arrayList;
+    String url;
 
     public Exam_Alert_Adapter(Context mcontext, ArrayList<ExamAlertModel> data) {
         this.context = mcontext;
@@ -50,9 +51,18 @@ public class Exam_Alert_Adapter extends RecyclerView.Adapter<Exam_Alert_Adapter.
         tck.setExamtype(examtype);*/
 
 
-
         holder.groupmembername.setText(arrayList.get(position).getContent());
         holder.currentdate.setText(arrayList.get(position).getModified_on());
+        url = arrayList.get(position).getUrl();
+        holder.lay1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, WebView.class);
+                i.putExtra("url", url);
+                context.startActivity(i);
+            }
+        });
+
         //holder.reject.setTag(position);
         if (!arrayList.get(position).getImage().equals("")) {
             Picasso.with(context).load(arrayList.get(position).getImage()).into(holder.ImageRiView);
@@ -77,12 +87,14 @@ public class Exam_Alert_Adapter extends RecyclerView.Adapter<Exam_Alert_Adapter.
 
         public TextView groupmembername, currentdate;
         ImageView ImageRiView;
+        LinearLayout lay1;
 
         public MyViewHolder(View view) {
             super(view);
             groupmembername = (TextView) view.findViewById(R.id.groupmembername);
             currentdate = (TextView) view.findViewById(R.id.currentdate);
             ImageRiView = (ImageView) view.findViewById(R.id.ImageRiView);
+            lay1 = (LinearLayout) view.findViewById(R.id.lay1);
         }
     }
 }

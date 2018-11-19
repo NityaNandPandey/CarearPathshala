@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bt_expiration_date_dialog_open.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\anim\\bt_expiration_date_dialog_open.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bt_error_animation.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\anim\\bt_error_animation.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\e67a59e0838edc503dcb9f686c255bbd705a96e2\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\e67a59e0838edc503dcb9f686c255bbd705a96e2\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bt_expiration_date_dialog_close.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\anim\\bt_expiration_date_dialog_close.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\af7d6c5a24df15dc6fe30ad48d3d9086af346c75\\output\\res\\anim\\abc_slide_in_top.xml"
+    }
+]

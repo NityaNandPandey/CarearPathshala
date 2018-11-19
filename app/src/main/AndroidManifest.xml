@@ -64,7 +64,6 @@
             </intent-filter>
         </service>
 
-        
 
         //----------------------------------------------------------------------
         <meta-data
@@ -79,7 +78,6 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="949251c25b02a38335ea4a258d32ddb292dfdd9d" />
-
 
 
         <activity
@@ -106,7 +104,7 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
         <activity
-            android:name=".activity.HomeScreen"
+            android:name=".activity.WebView"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"></activity>
     </application>

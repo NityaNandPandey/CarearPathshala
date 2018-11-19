@@ -8,80 +8,42 @@
 
     <!--  <string name="url_WebPayment">https://www.m3fcoc.com</string>-->
     <string name="app_name">CarearPathshala</string>
-    <!--  <string name="Main_lblcontrolroomcontact"><b><u>7017950013</u></b></string>-->
-    <string name="continue_process">Searching ...</string>
-    <string name="Main_lblConfirmSupport">Contact us at +94114327575</string>
-    <string name="OTP_lblPreSMS"><b>Enter your valid Activation Code</b></string>
-    <![CDATA[
+    <!--  <string name="Main_lblcontrolroomcontact"><b><u>7017950013</u></b></string>--><![CDATA[
+
+
+
+
     ng>
 
+
     ]]>
-    <string name="CheckInternet">Check your connection and try again.</string>
-    <string name="about_PhoneNo">+<u>095829 12488</u></string>
     <string name="about_PhoneNo_India"><u>(+91) 958-2912488</u></string>
     <string name="about_Email">Customer Support:  <u>careerpathshala@gmail.com</u></string>
     <string name="about_Emailnew">Services Information: <u>info@careerpathshala.com</u></string>
     <string name="about_EmailnewContectUs"><u>info@careerpathshala.com</u></string>
-    <string name="hint_username">User Name</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text --><![CDATA[
 
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="email">Email</string>
-    <string name="phone">Phone</string>
-    <string name="order">Order No</string>
-    <string name="items">Items</string>
-    <string name="amount">Amount</string>
-    <string name="subscription_amount">Subscription amount will deduct in your first ride.</string>
-    <![CDATA[
+
+
+
+
+
+
+
+
+
     >
 
+
+
     ]]>
-    <string name="hint_packagename">Package Name</string>
-    <string name="hint_activation_code">Activation Code</string>
-
-    <string name="Base_Fare">Base Fare</string>
-    <string name="Distance">Distance</string>
-    <string name="Extra_Distance">Extra Distance</string>
-    <string name="Duration">Duration</string>
-    <string name="Extra_Duration">Extra Duration</string>
-    <string name="Subtotal">Subtotal</string>
-    <string name="Subscription">Subscription Amount</string>
-    <string name="Service_Tax">Service Tax</string>
-    <string name="Vat_Tax">Vat Tax</string>
-    <string name="Cash">Cash</string>
-    <string name="Extra_Distance_Amount">Extra Distance Amount</string>
-    <string name="Extra_Duration_Amount">Extra Duration Amount</string>
-    <string name="Package_Name">Package Name</string>
-    <string name="Start_date">Start Date</string>
-    <string name="End_Date">End Date</string>
-    <string name="ActivationCode">Activation Code</string>
-    <string name="assigned_time">Assigned Time</string>
-
-    <string name="passportNumber">Passport Number</string>
-    <string name="edt_nicNumber">NIC Number</string>
-    <string name="BloodGroup">Blood Group</string>
     <string name="crash_toast_text">App Report,Plz Send Report</string>
 
-    <string name="CARD_HOLDER_NAMECL">CARD HOLDER NAME</string>
-    <string name="EXPIRY_MONTHCL">MM</string>
-    <string name="EXPIRY_YEARCL">YY</string>
-    <string name="Terms_and_Conditions"><a href="I have read and agree with the Terms and Conditions.">I have read and agree with the Terms and Conditions.</a></string>
-
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="generate"> <u>Generate Referal Code</u></string>
     <string name="Add_Bank_Detail"><u>To receive payment provide bank details here.</u></string>
 
     <string name="UsWebsite_Url"><u>www.careerpathshala.com</u></string>
-    <string name="India_Website_Url"><u>www.osoftec.com</u></string>
-    <string name="Click_here_to_subscribe"><u>Click here to subscribe.</u></string>
-
-    <string name="otp_hint">Please wait while we verify your mobile number.</string>
-    <string name="otp_message">Enter OTP received through SMS.</string>
-    <string name="GPS_message">Do you want to turn on GPS?</string>
-    <string name="GPS_title">GPS Not Enabled</string>
 
 
 </resources>

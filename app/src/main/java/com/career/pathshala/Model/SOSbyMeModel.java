@@ -23,6 +23,12 @@ public class SOSbyMeModel {
 
     private String msg;
 
+    private String content;
+    private String url;
+    private String examtypeid;
+    private String examtype;
+
+
     public String getIs_seen() {
         return is_seen;
     }
@@ -86,6 +92,43 @@ public class SOSbyMeModel {
     public void setMsg(String msg) {
         this.msg = msg;
     }
+
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+
+    public String getExamtypeid() {
+        return examtypeid;
+    }
+
+    public void setExamtypeid(String examtypeid) {
+        this.examtypeid = examtypeid;
+    }
+
+
+    public String getExamtype() {
+        return examtype;
+    }
+
+    public void setExamtype(String examtype) {
+        this.examtype = examtype;
+    }
+
 
 }
 

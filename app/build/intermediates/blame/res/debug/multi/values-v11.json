@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 8,
+                    "endOffset": 176
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\ec3e0486f03acdfc8b33bdc810850236944c23ef\\output\\res\\values-v11\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 293
+                    }
+                }
+            }
+        ]
+    }
+]

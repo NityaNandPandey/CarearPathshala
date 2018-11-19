@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\scale_with_alpha.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\fc2761a2d41ebdd10f17c696d12db1dfb6afa0c6\\output\\res\\animator\\scale_with_alpha.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_btn_state_list_anim.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\mtrl_chip_state_list_anim.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\mtrl_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\animator\\design_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\u\\.android\\build-cache\\ecc18f3c53f2ffabc358b25fd613e685f556956f\\output\\res\\animator\\design_fab_show_motion_spec.xml"
+    }
+]

@@ -1,7 +1,5 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="margin_2dp">2dp</dimen>
     <dimen name="margin_5dp">5dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
@@ -15,14 +13,11 @@
     <dimen name="margin_30dp">30dp</dimen>
     <dimen name="margin_35dp">35dp</dimen>
     <dimen name="margin_40dp">40dp</dimen>
-    <dimen name="margin_45dp">45dp</dimen>
-    <dimen name="margin_48dp">48dp</dimen>
     <dimen name="margin_50dp">50dp</dimen>
     <dimen name="margin_90dp">90dp</dimen>
     <dimen name="margin_100dp">100dp</dimen>
     <dimen name="margin_120dp">120dp</dimen>
     <dimen name="margin_150dp">150dp</dimen>
-    <dimen name="margin_140dp">140dp</dimen>
 
 
     <!--Text Size Set in this line......................................................................-->
@@ -31,12 +26,8 @@
     <dimen name="text_size_11sp">11sp</dimen>
     <dimen name="text_size_12sp">12sp</dimen>
     <dimen name="text_size_13sp">13sp</dimen>
-    <dimen name="text_size_14sp">14sp</dimen>
     <dimen name="text_size_15sp">15sp</dimen>
-    <dimen name="text_size_16sp">16sp</dimen>
 
-
-    <dimen name="myButtonWidth">150dp</dimen>
 
     <dimen name="margin_18dp">18dp</dimen>
     <dimen name="margin_210dp">210dp</dimen>
@@ -44,41 +35,19 @@
     <dimen name="title">12dp</dimen>
 
 
-    <dimen name="activity_background_margin_top">7dp</dimen>
-    <dimen name="activity_background_margin_left">5dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 
-    <dimen name="title_text_size">30sp</dimen>
-    <dimen name="subtitle_text_size">18sp</dimen>
-    <dimen name="editTextHeight">35sp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 
-    <!-- <dimen name="margin_10dp">10dp</dimen>-->
+    <!-- <dimen name="margin_10dp">10dp</dimen>--><![CDATA[
 
-    <dimen name="margin_25dp">25dp</dimen>
     >
+    ]]>
     <dimen name="margin_55dp">55dp</dimen>
     <dimen name="margin_60dp">60dp</dimen>
-    <dimen name="margin_110dp">110dp</dimen>
-    <dimen name="margin_420dp">420dp</dimen>
-    <dimen name="margin_200dp">20dp</dimen>
 
 
     <!--Text Size Set in this line......................................................................-->
-
-
-    <dimen name="min_height_header">5dp</dimen>
-    <dimen name="max_height_header">200dp</dimen>
-    <dimen name="toolbar_height">60dp</dimen>
-    <dimen name="min_height_textheader_materiallike">65dp</dimen>
-    <dimen name="min_height_header_materiallike">30dp</dimen>
-    <dimen name="text_size_600sp">600sp</dimen>
-    <dimen name="text_size_620spsp">620sp</dimen>
-
-    <dimen name="margin_550dp">550dp</dimen>
-    <dimen name="margin_600dp">600dp</dimen>
-    <dimen name="margin_620dp">620dp</dimen>
 
 
 </resources>

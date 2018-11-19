@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da-rDK\\values-da-rDK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 79,
+                    "endOffset": 130
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 79,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 135,
+                    "endColumn": 72,
+                    "endOffset": 203
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 135,
+                        "endColumn": 72,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 208,
+                    "endColumn": 60,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 60,
+                        "endOffset": 264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 74,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 74,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 73,
+                    "endOffset": 413
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 344,
+                        "endColumn": 73,
+                        "endOffset": 413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 418,
+                    "endColumn": 58,
+                    "endOffset": 472
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 418,
+                        "endColumn": 58,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 477,
+                    "endColumn": 55,
+                    "endOffset": 528
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 55,
+                        "endOffset": 106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 533,
+                    "endColumn": 61,
+                    "endOffset": 590
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 477,
+                        "endColumn": 61,
+                        "endOffset": 534
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 595,
+                    "endColumn": 51,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 51,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endColumn": 55,
+                    "endOffset": 698
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 591,
+                        "endColumn": 55,
+                        "endOffset": 642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 703,
+                    "endColumn": 59,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 647,
+                        "endColumn": 59,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 49,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 707,
+                        "endColumn": 49,
+                        "endOffset": 752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endColumn": 57,
+                    "endOffset": 866
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 57,
+                        "endOffset": 810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 871,
+                    "endColumn": 63,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 815,
+                        "endColumn": 63,
+                        "endOffset": 874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endColumn": 55,
+                    "endOffset": 986
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 55,
+                        "endOffset": 930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 991,
+                    "endColumn": 54,
+                    "endOffset": 1041
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 935,
+                        "endColumn": 54,
+                        "endOffset": 985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1046,
+                    "endColumn": 51,
+                    "endOffset": 1093
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 990,
+                        "endColumn": 51,
+                        "endOffset": 1037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1098,
+                    "endColumn": 63,
+                    "endOffset": 1157
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 63,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1162,
+                    "endColumn": 57,
+                    "endOffset": 1215
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 57,
+                        "endOffset": 228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1220,
+                    "endColumn": 62,
+                    "endOffset": 1278
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 62,
+                        "endOffset": 291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1283,
+                    "endColumn": 63,
+                    "endOffset": 1342
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\f4e7e2348261bc63343cf171a1ae36e41c0b09a6\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 63,
+                        "endOffset": 355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1347,
+                    "endColumn": 71,
+                    "endOffset": 1414
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 71,
+                        "endOffset": 1109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1419,
+                    "endColumn": 73,
+                    "endOffset": 1488
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1114,
+                        "endColumn": 73,
+                        "endOffset": 1183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1493,
+                    "endColumn": 63,
+                    "endOffset": 1552
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1188,
+                        "endColumn": 63,
+                        "endOffset": 1247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1557,
+                    "endColumn": 61,
+                    "endOffset": 1614
+                },
+                "from": {
+                    "file": "C:\\Users\\u\\.android\\build-cache\\d052a83ad8e9170d5cbe8572d26001a77b5f3d6b\\output\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1252,
+                        "endColumn": 61,
+                        "endOffset": 1309
+                    }
+                }
+            }
+        ]
+    }
+]

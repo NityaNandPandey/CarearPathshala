@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\deactive_icon.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\deactive_icon.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\email_icon.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\email_icon.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\password_img.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\password_img.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_mob.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\login_mob.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher_background.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\password_icon.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\password_icon.png"
+    },
+    {
+        "merged": "E:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\deactivate_account.png",
+        "source": "E:\\Carearpathshala\\Carearpathshala\\app\\src\\main\\res\\drawable-hdpi\\deactivate_account.png"
+    }
+]

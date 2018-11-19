@@ -1,15 +1,20 @@
 package com.career.pathshala.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.career.pathshala.Model.JobAlertModel;
 import com.career.pathshala.Model.SOSbyMeModel;
 import com.career.pathshala.R;
+import com.career.pathshala.activity.SignInActivity;
+import com.career.pathshala.activity.SplashActivity;
+import com.career.pathshala.activity.WebView;
 import com.career.pathshala.api_call.CommonFunctions;
 
 import java.util.ArrayList;
@@ -21,6 +26,7 @@ public class Job_Alert_Adapter extends RecyclerView.Adapter<Job_Alert_Adapter.My
     private Context context;
     private List<JobAlertModel> arrayList;
     private CommonFunctions cmf;
+    String url;
 
     public Job_Alert_Adapter(Context mcontext, ArrayList<JobAlertModel> data) {
         this.context = mcontext;
@@ -40,7 +46,15 @@ public class Job_Alert_Adapter extends RecyclerView.Adapter<Job_Alert_Adapter.My
         cmf = new CommonFunctions(context);
         holder.groupmembername.setText(arrayList.get(position).getContent());
         holder.mModifiedon.setText(arrayList.get(position).getModified_on());
-
+        url = arrayList.get(position).getUrl();
+        holder.lay1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, WebView.class);
+                i.putExtra("url", url);
+                context.startActivity(i);
+            }
+        });
 
        /* tck.setId(id);
         tck.setContent(content);
@@ -69,11 +83,13 @@ public class Job_Alert_Adapter extends RecyclerView.Adapter<Job_Alert_Adapter.My
 
         public TextView groupmembername;
         public TextView mModifiedon;
+        LinearLayout lay1;
 
         public MyViewHolder(View view) {
             super(view);
             groupmembername = (TextView) view.findViewById(R.id.groupmembername);
             mModifiedon = (TextView) view.findViewById(R.id.Modified_on);
+            lay1 = (LinearLayout) view.findViewById(R.id.lay1);
         }
     }
 }
