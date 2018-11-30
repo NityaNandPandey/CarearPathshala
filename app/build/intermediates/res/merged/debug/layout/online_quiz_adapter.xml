@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/TV_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10dp"
+                android:layout_weight="1.1"
+                android:text="Name"
+                android:textColor="@color/CarbonGray"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/TV_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mobile no."
+                android:textColor="@color/CarbonGray"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_5dp"
+                android:layout_weight="0.90"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/TV_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:text="Address"
+                    android:textColor="@color/CarbonGray"
+                    android:textSize="11sp"
+                    android:visibility="visible" />
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.20dp"
+        android:background="@color/CarbonGray"></View>
+</LinearLayout>

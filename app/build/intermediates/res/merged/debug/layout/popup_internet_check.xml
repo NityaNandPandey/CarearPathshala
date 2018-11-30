@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#b3000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/corners_popups" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/top"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No network available."
+                android:textColor="#ffffff"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            >
+
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="142dp"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_yes_no"
+                android:text="OK"
+                android:textColor="#ffffff"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
