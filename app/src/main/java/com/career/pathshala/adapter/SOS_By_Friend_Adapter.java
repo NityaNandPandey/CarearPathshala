@@ -327,7 +327,7 @@ public class SOS_By_Friend_Adapter extends RecyclerView.Adapter<SOS_By_Friend_Ad
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         public TextView groupmembername, batterypercentage, address, online, TV_userHelpFor;
-        public CircleImageView userimage;
+       // public CircleImageView userimage;
         public Button BT_firstletter;
         public Button decline, accept, track;
         public Button IV_jobDecline;
@@ -339,7 +339,7 @@ public class SOS_By_Friend_Adapter extends RecyclerView.Adapter<SOS_By_Friend_Ad
             TV_userHelpFor = (TextView) view.findViewById(R.id.TV_userHelpFor);
             batterypercentage = (TextView) view.findViewById(R.id.batterypercentage);
             address = (TextView) view.findViewById(R.id.address);
-            userimage = (CircleImageView) view.findViewById(R.id.userimage);
+//            userimage = (CircleImageView) view.findViewById(R.id.userimage);
             online = (TextView) view.findViewById(R.id.online);
             BT_firstletter = (Button) view.findViewById(R.id.BT_firstletter);
             decline = (Button) view.findViewById(R.id.decline);

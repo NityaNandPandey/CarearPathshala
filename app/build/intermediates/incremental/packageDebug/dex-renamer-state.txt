@@ -1,0 +1,7 @@
+#Fri Nov 30 08:31:15 IST 2018
+base.0=E\:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex
+base.1=E\:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=E\:\\Carearpathshala\\Carearpathshala\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
