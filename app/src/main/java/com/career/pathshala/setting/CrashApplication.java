@@ -1,3 +1,4 @@
+/*
 package com.career.pathshala.setting;
 
 
@@ -24,3 +25,4 @@ public class CrashApplication extends MultiDexApplication {
         ACRA.init(this);
     }
 }
+*/

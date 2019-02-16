@@ -1,9 +1,5 @@
 package com.career.pathshala.firebase;
 
-/**
- * Created by rupesh.m on 12/21/2016.
- */
-
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;

@@ -23,7 +23,6 @@ import com.career.pathshala.api_call.CommonFunctions;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.hdodenhof.circleimageview.CircleImageView;
 
 
 /**

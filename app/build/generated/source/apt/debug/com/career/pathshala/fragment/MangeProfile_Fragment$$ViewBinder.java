@@ -8,8 +8,8 @@ import butterknife.ButterKnife.ViewBinder;
 public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fragment.MangeProfile_Fragment> implements ViewBinder<T> {
   @Override public void bind(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131755580, "field 'TVChangePass' and method 'onViewClicked'");
-    target.TVChangePass = finder.castView(view, 2131755580, "field 'TVChangePass'");
+    view = finder.findRequiredView(source, 2131230762, "field 'TVChangePass' and method 'onViewClicked'");
+    target.TVChangePass = finder.castView(view, 2131230762, "field 'TVChangePass'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -18,8 +18,8 @@ public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fr
           target.onViewClicked(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131755477, "field 'pencil' and method 'onViewClicked'");
-    target.pencil = finder.castView(view, 2131755477, "field 'pencil'");
+    view = finder.findRequiredView(source, 2131230949, "field 'pencil' and method 'onViewClicked'");
+    target.pencil = finder.castView(view, 2131230949, "field 'pencil'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -28,16 +28,16 @@ public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fr
           target.onViewClicked(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131755585, "field 'ETName'");
-    target.ETName = finder.castView(view, 2131755585, "field 'ETName'");
-    view = finder.findRequiredView(source, 2131755588, "field 'ETPhone'");
-    target.ETPhone = finder.castView(view, 2131755588, "field 'ETPhone'");
-    view = finder.findRequiredView(source, 2131755590, "field 'ETMail'");
-    target.ETMail = finder.castView(view, 2131755590, "field 'ETMail'");
-    view = finder.findRequiredView(source, 2131755583, "field 'srollview'");
-    target.srollview = finder.castView(view, 2131755583, "field 'srollview'");
-    view = finder.findRequiredView(source, 2131755592, "field 'BTUpdate' and method 'onViewClicked'");
-    target.BTUpdate = finder.castView(view, 2131755592, "field 'BTUpdate'");
+    view = finder.findRequiredView(source, 2131230731, "field 'ETName'");
+    target.ETName = finder.castView(view, 2131230731, "field 'ETName'");
+    view = finder.findRequiredView(source, 2131230732, "field 'ETPhone'");
+    target.ETPhone = finder.castView(view, 2131230732, "field 'ETPhone'");
+    view = finder.findRequiredView(source, 2131230730, "field 'ETMail'");
+    target.ETMail = finder.castView(view, 2131230730, "field 'ETMail'");
+    view = finder.findRequiredView(source, 2131231048, "field 'srollview'");
+    target.srollview = finder.castView(view, 2131231048, "field 'srollview'");
+    view = finder.findRequiredView(source, 2131230723, "field 'BTUpdate' and method 'onViewClicked'");
+    target.BTUpdate = finder.castView(view, 2131230723, "field 'BTUpdate'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -46,8 +46,8 @@ public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fr
           target.onViewClicked(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131755582, "field 'IVdelete' and method 'onViewClicked'");
-    target.IVdelete = finder.castView(view, 2131755582, "field 'IVdelete'");
+    view = finder.findRequiredView(source, 2131230738, "field 'IVdelete' and method 'onViewClicked'");
+    target.IVdelete = finder.castView(view, 2131230738, "field 'IVdelete'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -56,8 +56,8 @@ public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fr
           target.onViewClicked(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131755581, "field 'IVdeactiveaccount' and method 'onViewClicked'");
-    target.IVdeactiveaccount = finder.castView(view, 2131755581, "field 'IVdeactiveaccount'");
+    view = finder.findRequiredView(source, 2131230737, "field 'IVdeactiveaccount' and method 'onViewClicked'");
+    target.IVdeactiveaccount = finder.castView(view, 2131230737, "field 'IVdeactiveaccount'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -66,10 +66,10 @@ public class MangeProfile_Fragment$$ViewBinder<T extends com.career.pathshala.fr
           target.onViewClicked(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131755587, "field 'TVcountrycode'");
-    target.TVcountrycode = finder.castView(view, 2131755587, "field 'TVcountrycode'");
-    view = finder.findRequiredView(source, 2131755591, "field 'BTBank'");
-    target.BTBank = finder.castView(view, 2131755591, "field 'BTBank'");
+    view = finder.findRequiredView(source, 2131230765, "field 'TVcountrycode'");
+    target.TVcountrycode = finder.castView(view, 2131230765, "field 'TVcountrycode'");
+    view = finder.findRequiredView(source, 2131230721, "field 'BTBank'");
+    target.BTBank = finder.castView(view, 2131230721, "field 'BTBank'");
   }
 
   @Override public void unbind(T target) {

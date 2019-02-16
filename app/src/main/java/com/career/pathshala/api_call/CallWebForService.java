@@ -144,7 +144,54 @@ public final class CallWebForService {
             }
              jsonBody = new JSONObject(map_vlaue);
             final String requestBody = jsonBody.toString();
-            stringRequest = new StringRequest(Request.Method.POST, murl, new Response.Listener<String>() {
+            stringRequest = new StringRequest(Request.Method.GET, murl, new Response.Listener<String>() {
+                @Override
+                public void onResponse(String response) {
+                    myListener.onSuccess(response);
+                    progressbar.dismiss();
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    myListener.onFailed();
+                    progressbar.dismiss();
+                    Log.e("-----VolleyError--->", error.toString());
+                }
+            }) {
+                @Override
+                public String getBodyContentType() {
+                    return "application/json; charset=utf-8";
+                }
+
+                @Override
+                public byte[] getBody() throws AuthFailureError {
+                    try {
+                        return requestBody == null ? null : requestBody.getBytes("utf-8");
+                    } catch (UnsupportedEncodingException uee) {
+                        VolleyLog.wtf("Unsupported Encoding while trying to get the bytes of %s using %s", requestBody, "utf-8");
+                        return null;
+                    }
+                }
+            };
+            requestQueue.add(stringRequest);
+            stringRequest.setRetryPolicy(new DefaultRetryPolicy(5000,
+                    DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+                    DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+        } catch (Exception e) {
+            e.printStackTrace();
+            progressbar.dismiss();
+        }
+    }
+
+
+    private void progresswebservicesget() {
+        try {
+            if (requestQueue == null) {
+                requestQueue = Volley.newRequestQueue(mycontext);
+            }
+            jsonBody = new JSONObject(map_vlaue);
+            final String requestBody = jsonBody.toString();
+            stringRequest = new StringRequest(Request.Method.GET, murl, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
                     myListener.onSuccess(response);

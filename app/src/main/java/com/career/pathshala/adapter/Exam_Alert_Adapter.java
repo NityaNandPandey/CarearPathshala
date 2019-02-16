@@ -65,9 +65,12 @@ public class Exam_Alert_Adapter extends RecyclerView.Adapter<Exam_Alert_Adapter.
 
         //holder.reject.setTag(position);
         if (!arrayList.get(position).getImage().equals("")) {
-            Picasso.with(context).load(arrayList.get(position).getImage()).into(holder.ImageRiView);
+            // Picasso.with(context).load(arrayList.get(position).getImage()).into(holder.ImageRiView);
+            Picasso.get().load(arrayList.get(position).getImage()).into(holder.ImageRiView);
         } else {
-            Picasso.with(context).load(R.drawable.apk_icon).into(holder.ImageRiView);
+            //Picasso.with(context).load(R.drawable.apk_icon).into(holder.ImageRiView);
+
+            Picasso.get().load(R.drawable.apk_icon).into(holder.ImageRiView);
         }
     }
 

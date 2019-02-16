@@ -1,41 +1,15 @@
 package com.career.pathshala.activity;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.crashlytics.android.Crashlytics;
-import com.career.pathshala.BuildConfig;
 import com.career.pathshala.R;
-import com.career.pathshala.api_call.AppUtil;
-import com.career.pathshala.api_call.CallWebService;
 import com.career.pathshala.api_call.CommonFunctions;
 import com.career.pathshala.api_call.GlobalConstants;
-import com.career.pathshala.api_call.MyServiceListener;
-import com.career.pathshala.api_call.UrlList;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-
-import io.fabric.sdk.android.Fabric;
-
-import static com.career.pathshala.setting.BaseActivity.myservice;
 
 
 /**

@@ -1,9 +1,5 @@
 package com.career.pathshala.firebase;
 
-/**
- * Created by rupesh.m on 12/21/2016.
- */
-
 import android.util.Log;
 
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -17,9 +13,10 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private CommonFunctions commonFunctions;
     private static final String TAG = "MyFirebaseIIDService";
     public static String refreshedToken;
+
     @Override
     public void onTokenRefresh() {
-        commonFunctions=new CommonFunctions(MyFirebaseInstanceIDService.this);
+        commonFunctions = new CommonFunctions(MyFirebaseInstanceIDService.this);
         //Getting registration token
         refreshedToken = FirebaseInstanceId.getInstance().getToken();
         commonFunctions.myPreference.setString(this, GlobalConstants.Firebasetoken, refreshedToken);
